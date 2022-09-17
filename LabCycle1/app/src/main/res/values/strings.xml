@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LabCycle1</string>
+    <string name="size">80dp</string>
+    <string name="fontsize">20dp</string>
+</resources>

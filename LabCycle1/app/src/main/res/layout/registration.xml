@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blk3">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Full Name"
+        android:textColor="@color/white"
+
+        app:layout_constraintBottom_toTopOf="@+id/editTextPhone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79"
+        tools:layout_editor_absoluteX="62dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Password"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumberDecimal"
+        tools:layout_editor_absoluteX="62dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/white"
+
+        android:ems="10"
+        android:inputType="phone"
+        android:text="Phone"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+        tools:layout_editor_absoluteX="62dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email"
+        app:layout_constraintBottom_toTopOf="@+id/editTextDate"
+        tools:layout_editor_absoluteX="62dp" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:textColor="@color/white"
+
+        android:ems="10"
+        android:inputType="date"
+        android:text="Date Of Birth"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        tools:layout_editor_absoluteX="62dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="Age"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Submit"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal"
+        tools:layout_editor_absoluteX="62dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
